@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 5pt rgb(61, 51, 51);
+    z-index: 3;
+}
+div.img{
+    text-align: center;
+}
+.navigation img{
+    width: 50%;
+    height: 100%;
+    margin-top: -0.5vw;
+}
+.nav-option{
+    margin-top: 5vh;
+}
+.dropdown{
+    margin-top: -1.6vh;
+}
+.navigation a{
+    text-decoration: none;
+    color: black;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.1rem;
+}
+.navigation a svg{
+    vertical-align: -0.3vh;
+}
+.navigation a:hover{
+    color: orange;
+}
+.navigation a::after{
+    content: "";
+    height: 2.3px;
+    background: orange;
+    width: 0;
+    transition: 0.3s linear;
+    display: block;
+    margin-left: 25%;
+}
+.navigation a:hover::after{
+    width: 50%;
+}
+.dropdown:hover{
+    color: rgb(236, 37, 100);
+}
+header{
+    padding-top: 30vh;
+    background-image: url("https://pixabay.com/videos/river-butterflies-leaves-184427/");
+}
+h1{
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5vw;
+}
+.header img{
+    width: 25vw;
+    height: 100%;
+    margin-left: 61vw;
+    margin-top: -55vh;
+    z-index: 2;
+}
+.header button{
+    width: 45vh;
+    height: 7vh;
+    background: #E48D0A;
+    border: none;
+    border-radius: 35px;
+    margin-left: 28vw;
+}
+.header button a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.8rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.header a:hover{
+    color: black;
+    margin-right: 15px;
+}
+.header svg{
+    vertical-align: -0.4vw;
+    color: white;
+}
+h2{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 7vh;
+}
+
+.grid-container{
+    display: grid;
+    width: 100vw;
+    grid-template-columns: auto auto;
+}
+
+.about-content img{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    margin-left: 25%;
+}
+
+.first-content, .second-content{
+    margin-top: 5%;
+    width: 75%;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: justify;
+    font-size: 0.8rem;
+}
+.second-content{
+    margin-left: 25%;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+    gap: 60px;
+}
+
+h4{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.head-menu1, .head-menu2{
+    padding-top: 0.8%;
+    background-color: white;
+    border-radius: 10px;
+    z-index: 1;
+    display: inline-block;
+    width: 15vw;
+    height: 7vh;
+    text-align: center;
+}
+
+.head-menu1{
+    position: relative;
+    left: 27vw;
+    top: -2vw;
+    box-shadow: 0 0 10px black;
+}
+
+.head-menu2{
+    position: relative;
+    left: 41vw;
+    top: -2vw;
+    box-shadow: 0 0 10px black;
+}
+
+.contact div{
+    margin-left: 5%;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+footer {
+    background: linear-gradient(264deg, #f5e2a5, #a17d10, #e3ae10);
+
+    -webkit-animation: AnimationName 14s ease infinite;
+    -moz-animation: AnimationName 14s ease infinite;
+    animation: AnimationName 14s ease infinite;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 14%}
+    50%{background-position:100% 87%}
+    100%{background-position:0% 14%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 14%}
+    50%{background-position:100% 87%}
+    100%{background-position:0% 14%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 14%}
+    50%{background-position:100% 87%}
+    100%{background-position:0% 14%}
+}
+
+.opacity{
+    opacity: 0.3;
+}
